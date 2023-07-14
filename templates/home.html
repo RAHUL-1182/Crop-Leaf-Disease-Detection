@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static' , filename='styles.css')}}">
+    <link rel="shortcut icon" type="image/png" href="static/download-removebg-preview.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Disease</title>
+    <h1 id="heading">Welcome to Potato Disease Classifier</h1>
+</head>
+<body>
+    
+    <center><p id="title-des">Find the potato disease in a few clicks!</p></center><br>
+        <div id="form">
+            <h2 id="labl">Click below to get started !</h2>
+            <div class="btn-prm">
+                <a  href="{{url_for('trackCalorie')}}"> 
+                    <input type="button" class="buttn" value="START" >
+                </a>
+            </div>
+        </div>
+</body>
+</html>

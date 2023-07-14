@@ -1,0 +1,116 @@
+body {
+    background: url('https://images4.alphacoders.com/498/49854.jpg');
+  }
+
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 50vw;
+    background-color: rgba(9, 95, 3, 0.593);
+    border-radius: 1rem;
+}
+#title {
+    color: rgb(23 75 75);
+    font-style: normal;
+    font-family: ui-sans-serif;
+    font-weight: 900;
+
+}
+
+#title-des{
+    color: rgb(51, 110, 76);
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    overflow:visible;
+    margin: 0 auto;
+}
+  
+.image img {
+    width: 100%;
+    transition: 0.2s all ease-in-out;
+}
+  
+.image:hover img {
+    transform: scale(1.2);
+}
+
+.buttn{
+    padding: .8rem 3rem;
+    background-color: #ff9900;
+    border-radius: 30px;
+    border-style: hidden;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: system-ui;
+}
+.buttn{
+    transition-duration: 0.3s;
+}
+.buttn:hover{
+    background-color: #ffab2d;
+    cursor: pointer;
+}
+#labl{
+    color:rgb(255, 255, 255);
+    font-size: xx-large;
+    font-weight: 200;
+    font-family: serif ;
+}
+
+
+#heading{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(23 75 75);
+    font-style: normal;
+    font-family: ui-sans-serif;
+    font-weight: 900;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 50vw;
+    background-color: rgba(9, 95, 3, 0.593);
+    border-radius: 1rem;
+}
+
+.boxsub{
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 740px;
+    height: 50px;
+    width: 100px;
+    background-color: #0b7cec;
+    border-radius: 30px;
+    border-style: hidden;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: system-ui
+}
+
+#prediction-text{
+    margin: 2rem auto 0rem;
+    color: rgb(125, 239, 170);
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 20px;
+}

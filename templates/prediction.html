@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static' , filename='styles.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Disease</title>
+</head>
+<body>
+    <p id="heading">Jai Jawan, Jai Kisan!! </p>
+
+    <div class="box">
+        <form action="http://localhost:5000/upload" enctype="multipart/form-data" method="POST">
+            <input class="input" type="file" value="Choose Image" name="file">
+            <input class="buttn" type="submit" onclick="upload()" enctype="multipart/form-data" method="POST">
+        </form>
+        <div id="prediction-text">
+            {{prediction_text}}
+        </div>
+        
+    </div>
+    
+
+</body>
+</html>
